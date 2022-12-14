@@ -1,0 +1,166 @@
+div#total {
+    width: 95%;
+    max-width: 980px;
+    height: auto;
+    margin: auto;
+}
+
+header#topo{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+div#logo {
+    width: 204px;
+    height: 84px;
+    margin: 20px auto;
+
+}
+
+nav#menu {
+    width: 100%;
+    height: 40px;
+    background-color: #111;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+
+
+}
+
+nav#menu a {
+     color:#fff ;
+     font-size: 14px;
+     text-decoration: none;
+     margin-right: 30px;
+     line-height: 40px;
+     text-transform: uppercase;
+
+
+}
+
+nav#menu a:hover {
+    text-decoration:underline ;
+
+
+}
+
+
+div#banner{
+     width: 100%;
+     height: auto;
+     float: left;
+
+}
+
+div#banner img {
+    width: 100%;
+    
+
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    float: left;
+    background-color: #dbcadb;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+
+article#conteudo{
+    width: 60%;
+    float: left;
+}
+
+aside#coluna{
+    width: 35%;
+    float: right;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+
+}
+
+h1{
+    color: #332;
+    font-size: 22px;
+
+}
+   
+
+h2{
+    color: #444;
+    font-size: 18px;
+
+
+}
+
+p{
+    color: #555;
+}
+
+div#anunciotablete {
+    width: 100%;
+    float: left;
+    background: color #f60; 
+    text-align: center;
+    color: #fff;
+    padding: 5px 0;
+    display: none;
+
+}
+
+   /*media query*/
+
+   @media screen and (min-width:668px)and (max-width:768px) {
+    div#anunciotablete {
+
+            
+        display: block;/*mostra*/ 
+
+    } 
+}   
+
+        @media screen and (max-width:536px) {
+          nav#menu{
+            height: auto;
+        }
+
+          nav#menu a{
+            display: block;
+            border-bottom: 1px solid #ccc;
+
+          }
+
+    div#logo, div#logo img{
+        width: 150px;
+        height: auto;
+    }
+        }
+        @media screen and (max-width:375px) {
+        
+            article#conteudo, aside#coluna{
+                width: 100%;
+
+    }
+
+    div#banner{
+        display: none;
+    }    
+}
+        
+
+    
+
+
+
+
+
+
+
+
